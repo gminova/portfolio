@@ -65,6 +65,22 @@ html {
 .profile {
   border-radius: 5px;
   max-height: 150px;
+  margin-top: 10px;
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-content: center;
+  align-items: center;
+  grid-gap: 5px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.logo {
+  max-width: 100px;
 }
 
 .arrow {
@@ -110,4 +126,16 @@ html {
   padding: 50px;
   background-color: #61dafb;
   color: #f1f1f1;
+}
+
+@media screen and (max-width: 900px) {
+  .about__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

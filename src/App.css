@@ -81,11 +81,13 @@ html {
 
 .logo {
   max-width: 100px;
+  border: 1px solid white;
 }
 
 .profile:hover,
 .logo:hover {
   opacity: 0.5;
+  border: 1px solid lightgrey;
 }
 
 .menu__content__link,
@@ -119,8 +121,31 @@ html {
   100% { transform: translateY(0); }
 }
 
-.App-link {
-  color: #61dafb;
+.section--projects {
+  background-color: #f1f1f1;
+  color: black;
+}
+.projects__gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: center;
+  align-items: center;
+  grid-gap: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.projects__gallery__img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 250px;
+  width: 500px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.projects__gallery__img:hover {
+  opacity: 0.5;
 }
 
 .contact__list__li {
@@ -133,9 +158,27 @@ html {
   color: #f1f1f1;
 }
 
+@media screen and (max-width: 1024px) {
+
+  .projects__gallery {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+
+  .projects__gallery__img {
+    height: 350px;
+    width: 700px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .about__grid {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .projects__gallery__img {
+    height: 250px;
+    width: 500px;
   }
 }
 
@@ -143,4 +186,10 @@ html {
   .about__grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .projects__gallery__img {
+    height: 150px;
+    width: 300px;
+  }
+  
 }

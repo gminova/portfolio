@@ -159,10 +159,10 @@ html {
   color: #f1f1f1;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
 
   html {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .projects__gallery {
@@ -177,6 +177,11 @@ html {
 }
 
 @media screen and (max-width: 900px) {
+
+  html {
+    font-size: 30px;
+  }
+
   .about__grid {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -188,6 +193,11 @@ html {
 }
 
 @media screen and (max-width: 600px) {
+
+  html {
+    font-size: 15px;
+  }
+
   .about__grid {
     grid-template-columns: repeat(2, 1fr);
   }

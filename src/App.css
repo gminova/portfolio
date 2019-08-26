@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
@@ -10,6 +14,7 @@
 }
 
 .menu__button {
+  position: relative;
   background-color: #61dafb;
   color: white;
   padding: 16px;
@@ -17,6 +22,7 @@
   border: none;
   cursor: pointer;
   font-size: 25px;
+  opacity: 0.5;
 }
 
 .menu__content {
@@ -54,6 +60,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #f1f1f1;
+}
+
+.profile {
+  border-radius: 5px;
+  max-height: 150px;
 }
 
 .arrow {

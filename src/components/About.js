@@ -3,20 +3,19 @@ import React, { Component } from 'react';
 class About extends Component {
     render() {
         return (
-            <div className="section">
+            <div className="section" id="About">
+                <img className="profile" src="https://i.imgur.com/wbshJ54.jpg" alt="profile"></img>
                 <h1>
                     Gergana Minova
                 </h1>
-
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-        </a>
-        <p className="arrow"><a className="arrow__link" href="#">&#x2193;</a></p>
+                <p>
+                    Full-Stack JavaScript Developer
+                </p>
+                <a className="arrow__link" href="#Projects">
+                    <p className="arrow">
+                        &#x2193;
+                        </p>
+                </a>
             </div>);
     }
 }

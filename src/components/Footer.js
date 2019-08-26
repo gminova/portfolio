@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <footer>
-                &copy;2019 Made with ❤️ by G. Minova
+                &copy;2019 Made with <span role="img" aria-label="heart-emoji">❤️</span> by G. Minova
             </footer>
 
         );

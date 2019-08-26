@@ -2,17 +2,93 @@
   text-align: center;
 }
 
-.App-header {
+.menu {
+  position: absolute;
+  display: block;
+  top: 10px;
+  left: 10px;
+}
+
+.menu__button {
+  background-color: #61dafb;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.menu__content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.menu__content__link {
+  padding: 12px 16px;
+  display: block;
+}
+
+.menu__content__link:hover {
+  background-color: #f1f1f1;
+}
+
+.menu:hover .menu__content {
+  display: block;
+}
+
+.menu:hover .menu__button {
+  background-color: #61dafb;
+}
+
+.section {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #f1f1f1;
+}
+
+.arrow {
+  background-color: #f1f1f1;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-bottom: -300px;
+}
+
+.menu__content__link,
+.arrow__link {
+  color: black;
+  text-decoration: none;
+}
+
+.arrow {
+  animation-name: arrow;
+  animation-timing-function: linear;
+}
+@keyframes arrow {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.footer_li:after {
+  content: url("./media/icons/icons8-github-100.png");
 }

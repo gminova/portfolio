@@ -3,15 +3,15 @@ import React, { Component } from 'react';
 class Contact extends Component {
     render() {
         return (
-            <div className="section" id="Projects">
+            <div className="section" id="Contact">
                 <ul>
-                    <li className="footer__li">
-                        <a href="https://linkedin.com/in/gminova" target="_blank" rel="noopener noreferrer">
+                    <li className="contact__list__li">
+                        <a className="contact__link" href="https://linkedin.com/in/gminova" target="_blank" rel="noopener noreferrer">
                             LinkedIn
                             </a>
                     </li>
-                    <li className="footer__li">
-                        <a href="https://github.com/gminova" target="_blank" rel="noopener noreferrer">
+                    <li className="contact__list__li">
+                        <a className="contact__link" href="https://github.com/gminova" target="_blank" rel="noopener noreferrer">
                             GitHub
                             </a>
                     </li>

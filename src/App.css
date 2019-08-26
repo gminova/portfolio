@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  font-size: 26px
 }
 
 .App {
@@ -159,6 +160,10 @@ html {
 }
 
 @media screen and (max-width: 1024px) {
+
+  html {
+    font-size: 30px;
+  }
 
   .projects__gallery {
     grid-template-columns: repeat(1, 1fr);

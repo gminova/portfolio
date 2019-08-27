@@ -10,7 +10,7 @@ class Contact extends Component {
                 <a className="contact__link" href="https://github.com/gminova" target="_blank" rel="noopener noreferrer">
                     GitHub
                             </a>
-                <a className="contact__link" href="../assets/Gergana MinovaCV.pdf" download="GerganaMinovaCV">Download CV.pdf</a>
+                <a className="contact__link" href="public/assets/Gergana MinovaCV.pdf" download="GerganaMinovaCV.pdf">Download CV.pdf</a>
             </div>);
     }
 }

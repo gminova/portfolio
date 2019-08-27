@@ -149,8 +149,8 @@ html {
   opacity: 0.5;
 }
 
-.contact__list__li {
-  list-style: none;
+.contact__link {
+  color: #f1f1f1;
 }
 
 .footer {

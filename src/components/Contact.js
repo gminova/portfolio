@@ -4,18 +4,13 @@ class Contact extends Component {
     render() {
         return (
             <div className="section" id="Contact">
-                <ul>
-                    <li className="contact__list__li">
-                        <a className="contact__link" href="https://linkedin.com/in/gminova" target="_blank" rel="noopener noreferrer">
-                            LinkedIn
+                <a className="contact__link" href="https://linkedin.com/in/gminova" target="_blank" rel="noopener noreferrer">
+                    LinkedIn
                             </a>
-                    </li>
-                    <li className="contact__list__li">
-                        <a className="contact__link" href="https://github.com/gminova" target="_blank" rel="noopener noreferrer">
-                            GitHub
+                <a className="contact__link" href="https://github.com/gminova" target="_blank" rel="noopener noreferrer">
+                    GitHub
                             </a>
-                    </li>
-                </ul>
+                <a className="contact__link" href="../assets/Gergana MinovaCV.pdf" download="GerganaMinovaCV">Download CV.pdf</a>
             </div>);
     }
 }

@@ -85,7 +85,6 @@ html {
   border: 1px solid white;
 }
 
-.profile:hover,
 .logo:hover {
   opacity: 0.5;
   border: 1px solid lightgrey;
@@ -210,7 +209,7 @@ html {
 }
 
 @media screen and (max-width: 400px) {
-  
+
   .about__grid {
     grid-template-columns: repeat(2, 1fr);
   }

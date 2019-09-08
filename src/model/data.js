@@ -99,6 +99,6 @@ export default {
     ],
     CV: {
         name: 'Download CV.pdf',
-        url: "./assets/GerganaMinovaCV.pdf"
+        url: "assets/Gergana MinovaCV.pdf"
     }
 }

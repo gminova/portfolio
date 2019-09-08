@@ -63,13 +63,26 @@ html {
   color: #f1f1f1;
 }
 
+.about__header{
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 10px 5px;
+}
+
 .profile {
   border-radius: 5px;
-  max-height: 150px;
+  max-height: 85px;
   margin-top: 10px;
 }
 
+.about__text {
+  max-width: 700px;
+  text-align: justify;
+  margin: 10px 20px;;
+}
+
 .about__grid {
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   align-content: center;
@@ -81,7 +94,7 @@ html {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 110px;
   border: 1px solid white;
 }
 
@@ -92,7 +105,8 @@ html {
 
 .menu__content__link,
 .arrow__link,
-.contact__link {
+.contact__link,
+.project__link {
   color: black;
   text-decoration: none;
 }
@@ -125,6 +139,7 @@ html {
   background-color: #f1f1f1;
   color: black;
 }
+
 .projects__gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -135,10 +150,15 @@ html {
   border-radius: 5px;
 }
 
+.project__link {
+  padding: 10px 20px;
+}
+
+.project__title {
+  margin: 5px 0px;
+}
+
 .projects__gallery__img {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  height: 250px;
   width: 500px;
   border-radius: 5px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -150,6 +170,10 @@ html {
 
 .contact__link {
   color: #f1f1f1;
+}
+
+.contact__link:hover {
+  color: #61dafb;
 }
 
 .footer {
@@ -170,7 +194,6 @@ html {
   }
 
   .projects__gallery__img {
-    height: 350px;
     width: 700px;
   }
 }
@@ -186,7 +209,6 @@ html {
   }
 
   .projects__gallery__img {
-    height: 250px;
     width: 500px;
   }
 }
@@ -202,7 +224,6 @@ html {
   }
 
   .projects__gallery__img {
-    height: 150px;
     width: 300px;
   }
   

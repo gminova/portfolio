@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
+import data from '../model/data';
 
 class Contact extends Component {
     render() {
         return (
             <div className="section" id="Contact">
-                <a className="contact__link" href="https://linkedin.com/in/gminova" target="_blank" rel="noopener noreferrer">
-                    LinkedIn
-                            </a>
-                <a className="contact__link" href="https://github.com/gminova" target="_blank" rel="noopener noreferrer">
-                    GitHub
-                            </a>
-                <a className="contact__link" href="./assets/Gergana MinovaCV.pdf" download="GerganaMinovaCV.pdf">Download CV.pdf</a>
-            </div>);
+            <span role="img" aria-label="dart-emoji">🎯</span>
+                {data.social.map((link, i)=>(
+                    <a className="contact__link" target="_blank" rel="noopener noreferrer" 
+                    href={link.url} key={i}>
+                    {link.name} </a>
+                    ))
+                }
+                <a className="contact__link" href={data.CV.url} download="GerganaMinovaCV.pdf">{data.CV.name}</a>
+            </div>
+            );
     }
 }
 

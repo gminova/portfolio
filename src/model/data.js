@@ -76,6 +76,10 @@ export default {
     ],
     //CONTACT
     social: [
+        {
+            name: 'Twitter',
+            url: "https://twitter.com/gigi_minova"
+        },
         {   
             name: 'GitHub',
             url: "https://github.com/gminova"

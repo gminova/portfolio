@@ -26,52 +26,62 @@ export default {
         {
             title: "Latest News",
             link: "https://github.com/gminova/latest-news",
-            img: "https://github.com/gminova/latest-news/blob/master/public/images/Screenshot%20from%202019-09-05%2000-21-28.png?raw=true"
+            img: "https://github.com/gminova/latest-news/blob/master/public/images/Screenshot%20from%202019-09-05%2000-21-28.png?raw=true",
+            text: "A full-stack personal project using ExpressJS, HandlebarsJS, PostgreSQL, APIs, fetch, TDD, supertest, tape, authentication, JWT, Travis CI, CSS, BEM and Heroku"
         },
         {
             title: "Crime Watcher",
             link:"https://github.com/gminova/crime-watcher",
-            img:"https://i.imgur.com/RLAMVR2.png"
+            img:"https://i.imgur.com/RLAMVR2.png",
+            text: "A group project using the xhr module, callbacks, APIs, vanilla JavaScript, TDD, leaflet maps, Heroku, HTML and CSS"
         },
         {
             title: "Pearls of wisdom",
             link:"https://github.com/gminova/pearls-of-wisdom",
-            img:"https://i.imgur.com/WRfEqwW.png"
+            img:"https://i.imgur.com/WRfEqwW.png",
+            text: "A group project using ExpressJS, HandlebarsJS, PostgreSQL, tape, supertest, TDD, Heroku, CSS"
         },
         {
             title: "Project Fear",
             link:"https://github.com/gminova/project-fear",
-            img:"https://i.imgur.com/AOxnRcn.png"
+            img:"https://i.imgur.com/AOxnRcn.png",
+            text: "A group project using NodeJS, http and https, TDD, API, Travis CI, tape, supertest, nock, CSS and HTML"
         },
         {
             title: "To-do app",
             link: "https://github.com/gminova/to-do-app",
-            img: "https://i.imgur.com/Bt2ZuXG.jpg"
+            img: "https://i.imgur.com/Bt2ZuXG.jpg",
+            text: "A group project using HTML, CSS, vanilla JavaScript, and TDD"
         },
         {
             title: "Wather app",
             link: "https://github.com/gminova/weather-app",
-            img: "https://i.imgur.com/uYnCglX.jpg"
+            img: "https://i.imgur.com/uYnCglX.jpg",
+            text: "A code-along team project using ExpressJS, API and EJS"
         },
         {
             title: "Tic-tac-toe",
             link: "https://github.com/gminova/tic-tac-toe",
-            img: "https://i.imgur.com/e0hBbEg.png"
+            img: "https://i.imgur.com/e0hBbEg.png",
+            text: "A code-along personal project following the React Documentation to help me learn React syntax, classes, inheritance and states"
         },
         {
             title: "Calculator",
             link: "https://gminova.github.io/calc-js/",
-            img: "https://i.imgur.com/PIX7zzm.png"
+            img: "https://i.imgur.com/PIX7zzm.png",
+            text: "A personal project using vanilla JavaScript, HTML and CSS"
         },
         {
             title: "Search GIFs",
             link: "https://github.com/gminova/search-gifs",
-            img: "https://i.imgur.com/FoBXSDg.jpg"
+            img: "https://i.imgur.com/FoBXSDg.jpg",
+            text: "A personal project using TDD, supertest, tape, TravisCI, nyc, codecov, Heroku, NodeJS and the Giphy API for searching gifs on the back-end"
         },
         {
             title: "Japanese memory game",
             link: "https://github.com/gminova/memory-game",
-            img: "https://i.imgur.com/d4sSgKZ.png"
+            img: "https://i.imgur.com/d4sSgKZ.png",
+            text: "A code-along personal project using vanilla JavaScript, HTML and CSS"
         }
     ],
     //CONTACT

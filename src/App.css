@@ -144,9 +144,13 @@ html {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-content: center;
-  align-items: center;
   grid-gap: 15px;
   padding: 5px;
+  border-radius: 5px;
+}
+
+.project__card {
+  background-color: white;
   border-radius: 5px;
 }
 
@@ -156,6 +160,12 @@ html {
 
 .project__title {
   margin: 5px 0px;
+}
+
+.project__text {
+  text-align: justify;
+  max-width: 500px;
+  padding: 10px 20px;
 }
 
 .projects__gallery__img {
@@ -172,7 +182,8 @@ html {
   color: #f1f1f1;
 }
 
-.contact__link:hover {
+.contact__link:hover,
+.project__link:hover {
   color: #61dafb;
 }
 

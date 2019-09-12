@@ -4,7 +4,6 @@ export default {
     profileImgSrc: 'https://i.imgur.com/wbshJ54.jpg',
     aboutText: [
         "I mentor prospect students at Founders and Coders. You can also find me at various meetups, such as London Node.js User Group, TAQFull(Technology, Agility & Quality), and London Tech Ladies.",
-        "I also like hackathons. Currently, I am preparing for the Code Untapped Diversity Hackathon (15th Sep '19), as well as EITFoodChangeMakers: Food and Environment Hackathon (5-6th Oct '19).",
         "I am committed to building software, tackling challenges and achieving goals. My objective is to join a friendly team and work towards clever and elegant solutions."
     ],
     aboutGrid: [

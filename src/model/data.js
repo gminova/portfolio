@@ -53,7 +53,7 @@ export default {
             text: "A group project using HTML, CSS, vanilla JavaScript, and TDD"
         },
         {
-            title: "Wather app",
+            title: "Weather app",
             link: "https://github.com/gminova/weather-app",
             img: "https://i.imgur.com/uYnCglX.jpg",
             text: "A code-along team project using ExpressJS, API and EJS"

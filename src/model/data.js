@@ -23,6 +23,12 @@ export default {
     //PROJECTS
     projects: [
         {
+            title: "Food Miles",
+            link: "https://github.com/gminova/food-miles",
+            img: "https://i.imgur.com/JbrkuvN.png",
+            text: "A full-stack group project using ExpressJS, HandlebarsJS, PostgreSQL, randomly generated dummy data, TDD, codecov, supertest, tape, Travis CI, SASS, and Heroku"
+        },
+        {
             title: "Latest News",
             link: "https://github.com/gminova/latest-news",
             img: "https://github.com/gminova/latest-news/blob/master/public/images/Screenshot%20from%202019-09-05%2000-21-28.png?raw=true",

@@ -55,7 +55,7 @@ exports[`renders correctly when there are no items 1`] = `
     <p
       className="about__text"
     >
-      I mentor prospect students at Founders and Coders. You can also find me at various meetups, such as London Node.js User Group, TAQFull(Technology, Agility & Quality), and London Tech Ladies.
+      I mentor prospect students at Founders and Coders. You can also find me at various events, such as London Node.js User team, TAQFull(Technology, Agility & Quality), and React meetups.
     </p>
     <p
       className="about__text"
@@ -195,7 +195,7 @@ exports[`renders correctly when there are no items 1`] = `
         <p
           className="project__text"
         >
-          A full-stack group project using ExpressJS, HandlebarsJS, PostgreSQL, randomly generated dummy data, TDD, codecov, supertest, tape, Travis CI, SASS, and Heroku
+          A full-stack team project using ExpressJS, HandlebarsJS, PostgreSQL, randomly generated dummy data, TDD, codecov, supertest, tape, Travis CI, SASS, and Heroku
         </p>
         <a
           className="project__link"
@@ -261,7 +261,7 @@ exports[`renders correctly when there are no items 1`] = `
         <p
           className="project__text"
         >
-          A group project using the xhr module, callbacks, APIs, vanilla JavaScript, TDD, leaflet maps, Heroku, HTML and CSS
+          A team project using the xhr module, callbacks, APIs, vanilla JavaScript, TDD, leaflet maps, Heroku, HTML and CSS
         </p>
         <a
           className="project__link"
@@ -294,7 +294,7 @@ exports[`renders correctly when there are no items 1`] = `
         <p
           className="project__text"
         >
-          A group project using ExpressJS, HandlebarsJS, PostgreSQL, tape, supertest, TDD, Heroku, CSS
+          A team project using ExpressJS, HandlebarsJS, PostgreSQL, tape, supertest, TDD, Heroku, CSS
         </p>
         <a
           className="project__link"
@@ -327,7 +327,7 @@ exports[`renders correctly when there are no items 1`] = `
         <p
           className="project__text"
         >
-          A group project using NodeJS, http and https, TDD, API, Travis CI, tape, supertest, nock, CSS and HTML
+          A team project using NodeJS, http and https, TDD, API, Travis CI, tape, supertest, nock, CSS and HTML
         </p>
         <a
           className="project__link"
@@ -360,7 +360,7 @@ exports[`renders correctly when there are no items 1`] = `
         <p
           className="project__text"
         >
-          A group project using HTML, CSS, vanilla JavaScript, and TDD
+          A team project using HTML, CSS, vanilla JavaScript, and TDD
         </p>
         <a
           className="project__link"

@@ -3,7 +3,7 @@ export default {
   name: "Gergana Minova",
   profileImgSrc: "https://i.imgur.com/wbshJ54.jpg",
   aboutText: [
-    "I mentor prospect students at Founders and Coders. You can also find me at various meetups, such as London Node.js User Group, TAQFull(Technology, Agility & Quality), and London Tech Ladies.",
+    "I mentor prospect students at Founders and Coders. You can also find me at various events, such as London Node.js User team, TAQFull(Technology, Agility & Quality), and React meetups.",
     "I am committed to building software, tackling challenges and achieving goals. My objective is to join a friendly team and work towards clever and elegant solutions."
   ],
   aboutGrid: [
@@ -34,7 +34,7 @@ export default {
       link: "https://github.com/gminova/food-miles",
       img: "https://i.imgur.com/EntbhD7.png",
       text:
-        "A full-stack group project using ExpressJS, HandlebarsJS, PostgreSQL, randomly generated dummy data, TDD, codecov, supertest, tape, Travis CI, SASS, and Heroku"
+        "A full-stack team project using ExpressJS, HandlebarsJS, PostgreSQL, randomly generated dummy data, TDD, codecov, supertest, tape, Travis CI, SASS, and Heroku"
     },
     {
       title: "Latest News",
@@ -49,27 +49,27 @@ export default {
       link: "https://github.com/gminova/crime-watcher",
       img: "https://i.imgur.com/RLAMVR2.png",
       text:
-        "A group project using the xhr module, callbacks, APIs, vanilla JavaScript, TDD, leaflet maps, Heroku, HTML and CSS"
+        "A team project using the xhr module, callbacks, APIs, vanilla JavaScript, TDD, leaflet maps, Heroku, HTML and CSS"
     },
     {
       title: "Pearls of wisdom",
       link: "https://github.com/gminova/pearls-of-wisdom",
       img: "https://i.imgur.com/WRfEqwW.png",
       text:
-        "A group project using ExpressJS, HandlebarsJS, PostgreSQL, tape, supertest, TDD, Heroku, CSS"
+        "A team project using ExpressJS, HandlebarsJS, PostgreSQL, tape, supertest, TDD, Heroku, CSS"
     },
     {
       title: "Project Fear",
       link: "https://github.com/gminova/project-fear",
       img: "https://i.imgur.com/AOxnRcn.png",
       text:
-        "A group project using NodeJS, http and https, TDD, API, Travis CI, tape, supertest, nock, CSS and HTML"
+        "A team project using NodeJS, http and https, TDD, API, Travis CI, tape, supertest, nock, CSS and HTML"
     },
     {
       title: "To-do app",
       link: "https://github.com/gminova/to-do-app",
       img: "https://i.imgur.com/Bt2ZuXG.jpg",
-      text: "A group project using HTML, CSS, vanilla JavaScript, and TDD"
+      text: "A team project using HTML, CSS, vanilla JavaScript, and TDD"
     },
     {
       title: "Weather app",

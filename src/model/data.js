@@ -32,7 +32,7 @@ export default {
     {
       title: "Food Miles",
       link: "https://github.com/gminova/food-miles",
-      img: "https://i.imgur.com/JbrkuvN.png",
+      img: "https://i.imgur.com/EntbhD7.png",
       text:
         "A full-stack group project using ExpressJS, HandlebarsJS, PostgreSQL, randomly generated dummy data, TDD, codecov, supertest, tape, Travis CI, SASS, and Heroku"
     },

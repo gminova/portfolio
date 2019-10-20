@@ -25,9 +25,9 @@ export default {
     {
       title: "Generation Change",
       link: "https://github.com/fac-17/Generation-Change",
-      img: "https://i.imgur.com/KG96C3B.jpg",
+      img: "https://i.imgur.com/sFueM9Q.jpg",
       text:
-        "A serverless team project build for a client using ReactJS, SASS, BEM, Airtable, Jest, Cypress, and Netlify. This website allows educators (e.g. teachers, scout leaders) to find local social action projects for their young people."
+        "A serverless team project build for a client using ReactJS, SASS, BEM, Airtable, Jest, Cypress, and Netlify. This website allows educators (e.g. scout leaders) to find local social action projects for their young people."
     },
     {
       title: "Food Miles",

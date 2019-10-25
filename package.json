@@ -16,7 +16,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "lint": "eslint ."
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,6 +36,8 @@
   },
   "devDependencies": {
     "cypress": "^3.5.0",
+    "eslint": "^6.5.1",
+    "eslint-plugin-react": "^7.16.0",
     "react-test-renderer": "^16.9.0"
   }
 }

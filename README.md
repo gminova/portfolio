@@ -1,5 +1,7 @@
 # G. Minova
 
+[![Build Status](https://travis-ci.com/gminova/portfolio.svg?branch=master)](https://travis-ci.com/gminova/portfolio)  
+
 [![Cypress.io Test Dashboard](https://img.shields.io/badge/cypress.io-dashboard-green.svg?style=flat-square)](https://dashboard.cypress.io/#/projects/nvv8um)  
 
 I mentor prospect students at Founders and Coders. You can also find me at various meetups, such as London Node.js User Group, TAQFull(Technology, Agility & Quality), and London Tech Ladies.

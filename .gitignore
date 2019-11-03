@@ -9,6 +9,7 @@
 /coverage
 __snapshots__
 videos
+.nyc_output
 # production
 /build
 

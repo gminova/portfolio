@@ -18,7 +18,7 @@
     "deploy": "gh-pages -d build",
     "cypress:open": "cypress open",
     "lint": "eslint .",
-    "report-coverage": " nyc report --reporter=text-lcov > coverage.lcov && codecov"
+    "report-coverage": "npm test -- --coverage --watchAll=false && codecov"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,7 +43,6 @@
     "eslint-plugin-cypress": "^2.7.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^2.2.0",
-    "nyc": "^14.1.1"
+    "eslint-plugin-react-hooks": "^2.2.0"
   }
 }

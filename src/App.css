@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  font-size: 26px
+  font-size: 26px;
 }
 
 .App {
@@ -63,7 +63,7 @@ html {
   color: #f1f1f1;
 }
 
-.about__header{
+.about__header {
   font-size: 1.6rem;
   text-transform: uppercase;
   margin: 10px 5px;
@@ -78,7 +78,7 @@ html {
 .about__text {
   max-width: 700px;
   text-align: justify;
-  margin: 10px 20px;;
+  margin: 10px 20px;
 }
 
 .about__grid {
@@ -120,7 +120,7 @@ html {
   height: 50px;
   border-radius: 10%;
   animation-duration: 2s;
-  animation-iteration-count: infinite;  
+  animation-iteration-count: infinite;
   margin-bottom: 60px;
 }
 
@@ -130,9 +130,15 @@ html {
   animation-timing-function: linear;
 }
 @keyframes arrow {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-30px); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .section--projects {
@@ -194,7 +200,6 @@ html {
 }
 
 @media screen and (max-width: 1025px) {
-
   html {
     font-size: 35px;
   }
@@ -210,7 +215,6 @@ html {
 }
 
 @media screen and (max-width: 900px) {
-
   html {
     font-size: 30px;
   }
@@ -225,7 +229,6 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-
   html {
     font-size: 15px;
   }
@@ -237,13 +240,10 @@ html {
   .projects__gallery__img {
     width: 300px;
   }
-  
 }
 
 @media screen and (max-width: 400px) {
-
   .about__grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
 }

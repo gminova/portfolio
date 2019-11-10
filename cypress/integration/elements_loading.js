@@ -1,25 +1,25 @@
-describe('Site Navigation', function() {
+describe('Site Navigation', () => {
   beforeEach(() => {
     cy.visit('http://localhost:3000');
   });
 
-  it('Gets about header', function() {
+  it('Gets about header', () => {
     cy.get('.about__header').should('contain', 'Gergana Minova');
     expect('.about__header').to.be.a('string');
   });
 
-  it('Gets menu icon', function() {
+  it('Gets menu icon', () => {
     cy.get('.menu__button').should('contain', '☰');
   });
 
-  it('Scrolls to projects on click of arrow down button', function() {
+  it('Scrolls to projects on click of arrow down button', () => {
     cy.get('.arrow')
       .should('contain', '↓')
       .click({ force: true });
     cy.url().should('eq', 'http://localhost:3000/#Projects');
   });
 
-  it('Scrolls to projects on click of arrow down button', function() {
+  it('Scrolls to projects on click of arrow down button', () => {
     cy.get('.menu__content')
       .invoke('show')
       .click();
@@ -30,7 +30,7 @@ describe('Site Navigation', function() {
     cy.get('.menu__content').invoke('hide');
   });
 
-  it('Scrolls to projects on click of arrow down button', function() {
+  it('Scrolls to projects on click of arrow down button', () => {
     cy.get('.menu__content')
       .invoke('show')
       .click();
@@ -41,7 +41,7 @@ describe('Site Navigation', function() {
     cy.get('.menu__content').invoke('hide');
   });
 
-  it('Scrolls to projects on click of arrow down button', function() {
+  it('Scrolls to projects on click of arrow down button', () => {
     cy.get('.menu__content')
       .invoke('show')
       .click();

@@ -17,6 +17,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "cypress:open": "cypress open",
+    "cy:run": "cypress run",
     "lint": "eslint .",
     "report-coverage": "npm test -- --coverage --watchAll=false && codecov"
   },

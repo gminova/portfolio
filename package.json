@@ -14,7 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepush": "npm run lint && npm run test",
+    "prepush": "npm run pretty && npm run lint && npm run test",
     "predeploy": "npm run build",
     "deploy": "npm run prepush && gh-pages -d build",
     "cypress:open": "cypress open",

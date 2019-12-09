@@ -1,9 +1,9 @@
 export default {
   //ABOUT
   name: 'Gergana Minova',
-  profileImgSrc: 'https://i.imgur.com/wbshJ54.jpg',
+  profileImgSrc: 'https://avatars0.githubusercontent.com/u/42014388?s=460',
   aboutText: [
-    "Full-stack Software Engineer currently focusing on automation of end to end testing with Cypress. My tech-stack is: ReactJS, NodeJS, ExpressJS, and PostgreSQL. I'm also learning Redux, Python and GraphQL.",
+    "Full-stack Software Engineer @Lantum. My tech-stack is: ReactJS, NodeJS, ExpressJS, and PostgreSQL. I'm also learning Redux, Python and GraphQL.",
   ],
   aboutGrid: [
     'https://i.imgur.com/I7jXzxR.png',
